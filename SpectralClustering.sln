@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpectralClustering", "SpectralClustering\SpectralClustering.csproj", "{81F356AF-1962-4E6A-983C-7363C1FC2CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_spectral", "test_spectral\test_spectral.csproj", "{754DD7E6-7B3E-40CC-A20C-2F665284A0A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F356AF-1962-4E6A-983C-7363C1FC2CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F356AF-1962-4E6A-983C-7363C1FC2CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F356AF-1962-4E6A-983C-7363C1FC2CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F356AF-1962-4E6A-983C-7363C1FC2CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754DD7E6-7B3E-40CC-A20C-2F665284A0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754DD7E6-7B3E-40CC-A20C-2F665284A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754DD7E6-7B3E-40CC-A20C-2F665284A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754DD7E6-7B3E-40CC-A20C-2F665284A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E759D30-BFE3-474E-9EBB-95724FD3D98E}
+	EndGlobalSection
+EndGlobal
