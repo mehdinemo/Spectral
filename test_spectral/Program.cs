@@ -10,7 +10,7 @@ namespace test_spectral
         static void Main(string[] args)
         {
             List<string> test_in = new List<string>();
-            //string[] lines = File.ReadAllLines(@"D:\asghari_clustering\words\clustering\clusteringInput(4).txt");
+            
             //Edges including Source, Target and weight with tab seperator
             string[] lines = File.ReadAllLines("Edges.txt");
 
@@ -18,9 +18,7 @@ namespace test_spectral
                 test_in.Add(lines[i]);
 
             SpectClustering sc = new SpectClustering(test_in, 50);
-
-            ////sc.creat_csv();
-
+            
             var res = sc.StartClustering();
             Dictionary<string, int> words_clusters = res.Item2;
             List<string> lab = new List<string>();
